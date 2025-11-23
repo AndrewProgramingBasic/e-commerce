@@ -11,7 +11,7 @@ services:
     container_name: e-comerce-stephanmoda
 
     ports:
-      - "3002:3001"
+      - "3002:3000"
     
     environment:
       # Definición para VIRTUAL_HOST (ejemplo de proxy)
