@@ -19,8 +19,16 @@ export const metadata: Metadata = {
   title: "StephanModa - Moda Premium",
   description: "Descubre nuestras colecciones exclusivas de moda de lujo",
   generator: "v0.app",
+  icons: {
+    icon: [
+      {
+        url: "/icon.svg",
+        type: "image/svg+xml",
+      },
+    ],
+    apple: "/apple-icon.svg",
+  },
 }
-
 export default function RootLayout({
   children,
 }: {
