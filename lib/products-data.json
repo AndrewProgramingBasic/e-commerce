@@ -1,0 +1,574 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Blazer Clásico Premium",
+      "price": 189.99,
+      "image": "/products/1-blazer-clasico-preview.jpg",
+      "gallery": [
+        "/products/1-blazer-clasico-1.jpg",
+        "/products/1-blazer-clasico-2.jpg",
+        "/products/1-blazer-clasico-3.jpg",
+        "/products/1-blazer-clasico-4.jpg"
+      ],
+      "category": "Blazers",
+      "line": "Mujeres",
+      "color": "Beige",
+      "colors": ["Beige", "Negro", "Gris"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": 15,
+      "description": "Blazer elegante en lino puro con corte moderno y acabado impecable"
+    },
+    {
+      "id": 2,
+      "name": "Vestido Minimalista",
+      "price": 249.99,
+      "image": "/products/2-vestido-minimalista-preview.jpg",
+      "gallery": [
+        "/products/2-vestido-minimalista-1.jpg",
+        "/products/2-vestido-minimalista-2.jpg",
+        "/products/2-vestido-minimalista-3.jpg",
+        "/products/2-vestido-minimalista-4.jpg"
+      ],
+      "category": "Vestidos",
+      "line": "Mujeres",
+      "color": "Negro",
+      "colors": ["Negro", "Blanco", "Gris"],
+      "sizes": ["XS", "S", "M", "L"],
+      "stock": 12,
+      "description": "Vestido minimalista con líneas limpias y silueta sofisticada"
+    },
+    {
+      "id": 3,
+      "name": "Pantalón Premium Gris",
+      "price": 159.99,
+      "image": "/products/3-pantalon-gris-preview.jpg",
+      "gallery": [
+        "/products/3-pantalon-gris-1.jpg",
+        "/products/3-pantalon-gris-2.jpg",
+        "/products/3-pantalon-gris-3.jpg",
+        "/products/3-pantalon-gris-4.jpg"
+      ],
+      "category": "Pantalones",
+      "line": "Mujeres",
+      "color": "Gris",
+      "colors": ["Gris", "Negro", "Beige"],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "stock": 20,
+      "description": "Pantalón de alta calidad con ajuste perfecto y tela premium"
+    },
+    {
+      "id": 4,
+      "name": "Camisa Elegante Blanca",
+      "price": 129.99,
+      "image": "/products/4-camisa-blanca-preview.jpg",
+      "gallery": [
+        "/products/4-camisa-blanca-1.jpg",
+        "/products/4-camisa-blanca-2.jpg",
+        "/products/4-camisa-blanca-3.jpg",
+        "/products/4-camisa-blanca-4.jpg"
+      ],
+      "category": "Camisas",
+      "line": "Hombres",
+      "color": "Blanco",
+      "colors": ["Blanco", "Azul", "Rosa"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "stock": 25,
+      "description": "Camisa elegante en algodón puro con acabado profesional"
+    },
+    {
+      "id": 5,
+      "name": "Falda Plisada Negra",
+      "price": 179.99,
+      "image": "/products/5-falda-plisada-preview.jpg",
+      "gallery": [
+        "/products/5-falda-plisada-1.jpg",
+        "/products/5-falda-plisada-2.jpg",
+        "/products/5-falda-plisada-3.jpg",
+        "/products/5-falda-plisada-4.jpg"
+      ],
+      "category": "Faldas",
+      "line": "Mujeres",
+      "color": "Negro",
+      "colors": ["Negro", "Blanco", "Beige"],
+      "sizes": ["XS", "S", "M", "L"],
+      "stock": 18,
+      "description": "Falda plisada con acabado premium y excelente caída"
+    },
+    {
+      "id": 6,
+      "name": "Chaqueta Cuero Café",
+      "price": 329.99,
+      "image": "/products/6-chaqueta-cuero-preview.jpg",
+      "gallery": [
+        "/products/6-chaqueta-cuero-1.jpg",
+        "/products/6-chaqueta-cuero-2.jpg",
+        "/products/6-chaqueta-cuero-3.jpg",
+        "/products/6-chaqueta-cuero-4.jpg"
+      ],
+      "category": "Chaquetas",
+      "line": "Hombres",
+      "color": "Café",
+      "colors": ["Café", "Negro"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "stock": 8,
+      "description": "Chaqueta en cuero genuino con diseño atemporal"
+    },
+    {
+      "id": 7,
+      "name": "Cardigan Elegante",
+      "price": 149.99,
+      "image": "/products/7-cardigan-preview.jpg",
+      "gallery": [
+        "/products/7-cardigan-1.jpg",
+        "/products/7-cardigan-2.jpg",
+        "/products/7-cardigan-3.jpg",
+        "/products/7-cardigan-4.jpg"
+      ],
+      "category": "Cardigans",
+      "line": "Mujeres",
+      "color": "Beige",
+      "colors": ["Beige", "Gris", "Negro"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": 22,
+      "description": "Cardigan en lana merino con botones de concha"
+    },
+    {
+      "id": 8,
+      "name": "Polo Premium",
+      "price": 89.99,
+      "image": "/products/8-polo-preview.jpg",
+      "gallery": [
+        "/products/8-polo-1.jpg",
+        "/products/8-polo-2.jpg",
+        "/products/8-polo-3.jpg",
+        "/products/8-polo-4.jpg"
+      ],
+      "category": "Polos",
+      "line": "Hombres",
+      "color": "Blanco",
+      "colors": ["Blanco", "Negro", "Azul"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "stock": 30,
+      "description": "Polo en algodón pique de alta calidad"
+    },
+    {
+      "id": 9,
+      "name": "Pantalón Chino",
+      "price": 119.99,
+      "image": "/products/9-pantalon-chino-preview.jpg",
+      "gallery": [
+        "/products/9-pantalon-chino-1.jpg",
+        "/products/9-pantalon-chino-2.jpg",
+        "/products/9-pantalon-chino-3.jpg",
+        "/products/9-pantalon-chino-4.jpg"
+      ],
+      "category": "Pantalones",
+      "line": "Hombres",
+      "color": "Beige",
+      "colors": ["Beige", "Gris", "Azul"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "stock": 25,
+      "description": "Pantalón chino con corte moderno y confortable"
+    },
+    {
+      "id": 10,
+      "name": "Blusa Sofisticada",
+      "price": 139.99,
+      "image": "/products/10-blusa-sofisticada-preview.jpg",
+      "gallery": [
+        "/products/10-blusa-sofisticada-1.jpg",
+        "/products/10-blusa-sofisticada-2.jpg",
+        "/products/10-blusa-sofisticada-3.jpg",
+        "/products/10-blusa-sofisticada-4.jpg"
+      ],
+      "category": "Blusas",
+      "line": "Mujeres",
+      "color": "Negro",
+      "colors": ["Negro", "Blanco", "Champagne"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": 16,
+      "description": "Blusa con detalles elegantes y acabado impecable"
+    },
+    {
+      "id": 11,
+      "name": "Jacket Deportivo",
+      "price": 199.99,
+      "image": "/products/11-jacket-deportivo-preview.jpg",
+      "gallery": [
+        "/products/11-jacket-deportivo-1.jpg",
+        "/products/11-jacket-deportivo-2.jpg",
+        "/products/11-jacket-deportivo-3.jpg",
+        "/products/11-jacket-deportivo-4.jpg"
+      ],
+      "category": "Chaquetas",
+      "line": "Hombres",
+      "color": "Negro",
+      "colors": ["Negro", "Gris", "Azul"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "stock": 14,
+      "description": "Chaqueta deportiva con tecnología de soporte"
+    },
+    {
+      "id": 12,
+      "name": "Vestido Cocktail",
+      "price": 299.99,
+      "image": "/products/12-vestido-cocktail-preview.jpg",
+      "gallery": [
+        "/products/12-vestido-cocktail-1.jpg",
+        "/products/12-vestido-cocktail-2.jpg",
+        "/products/12-vestido-cocktail-3.jpg",
+        "/products/12-vestido-cocktail-4.jpg"
+      ],
+      "category": "Vestidos",
+      "line": "Mujeres",
+      "color": "Champagne",
+      "colors": ["Champagne", "Negro", "Azul"],
+      "sizes": ["XS", "S", "M", "L"],
+      "stock": 10,
+      "description": "Vestido elegante para eventos especiales"
+    },
+    {
+      "id": 13,
+      "name": "Camisa Oxford",
+      "price": 119.99,
+      "image": "/products/13-camisa-oxford-preview.jpg",
+      "gallery": [
+        "/products/13-camisa-oxford-1.jpg",
+        "/products/13-camisa-oxford-2.jpg",
+        "/products/13-camisa-oxford-3.jpg",
+        "/products/13-camisa-oxford-4.jpg"
+      ],
+      "category": "Camisas",
+      "line": "Hombres",
+      "color": "Azul",
+      "colors": ["Azul", "Blanco", "Rosa"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "stock": 28,
+      "description": "Camisa Oxford con tela de alta densidad"
+    },
+    {
+      "id": 14,
+      "name": "Falda Maxi",
+      "price": 189.99,
+      "image": "/products/14-falda-maxi-preview.jpg",
+      "gallery": [
+        "/products/14-falda-maxi-1.jpg",
+        "/products/14-falda-maxi-2.jpg",
+        "/products/14-falda-maxi-3.jpg",
+        "/products/14-falda-maxi-4.jpg"
+      ],
+      "category": "Faldas",
+      "line": "Mujeres",
+      "color": "Blanco",
+      "colors": ["Blanco", "Negro", "Beige"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": 12,
+      "description": "Falda maxi con corte elegante y caída perfecta"
+    },
+    {
+      "id": 15,
+      "name": "Jersey Premium",
+      "price": 169.99,
+      "image": "/products/15-jersey-preview.jpg",
+      "gallery": [
+        "/products/15-jersey-1.jpg",
+        "/products/15-jersey-2.jpg",
+        "/products/15-jersey-3.jpg",
+        "/products/15-jersey-4.jpg"
+      ],
+      "category": "Jerseys",
+      "line": "Hombres",
+      "color": "Gris",
+      "colors": ["Gris", "Negro", "Azul"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "stock": 19,
+      "description": "Jersey en lana merino con confort máximo"
+    },
+    {
+      "id": 16,
+      "name": "Top Elegante",
+      "price": 99.99,
+      "image": "/products/16-top-elegante-preview.jpg",
+      "gallery": [
+        "/products/16-top-elegante-1.jpg",
+        "/products/16-top-elegante-2.jpg",
+        "/products/16-top-elegante-3.jpg",
+        "/products/16-top-elegante-4.jpg"
+      ],
+      "category": "Tops",
+      "line": "Mujeres",
+      "color": "Negro",
+      "colors": ["Negro", "Blanco", "Dorado"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": 24,
+      "description": "Top versátil con detalles sofisticados"
+    },
+    {
+      "id": 17,
+      "name": "Pantalón Formal",
+      "price": 179.99,
+      "image": "/products/17-pantalon-formal-preview.jpg",
+      "gallery": [
+        "/products/17-pantalon-formal-1.jpg",
+        "/products/17-pantalon-formal-2.jpg",
+        "/products/17-pantalon-formal-3.jpg",
+        "/products/17-pantalon-formal-4.jpg"
+      ],
+      "category": "Pantalones",
+      "line": "Hombres",
+      "color": "Negro",
+      "colors": ["Negro", "Gris", "Azul"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "stock": 17,
+      "description": "Pantalón formal con corte impecable"
+    },
+    {
+      "id": 18,
+      "name": "Bolero Elegante",
+      "price": 139.99,
+      "image": "/products/18-bolero-preview.jpg",
+      "gallery": [
+        "/products/18-bolero-1.jpg",
+        "/products/18-bolero-2.jpg",
+        "/products/18-bolero-3.jpg",
+        "/products/18-bolero-4.jpg"
+      ],
+      "category": "Boleros",
+      "line": "Mujeres",
+      "color": "Beige",
+      "colors": ["Beige", "Negro", "Champagne"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": 13,
+      "description": "Bolero fino para complementar outfits elegantes"
+    },
+    {
+      "id": 19,
+      "name": "Tie Seda",
+      "price": 59.99,
+      "image": "/products/19-tie-seda-preview.jpg",
+      "gallery": [
+        "/products/19-tie-seda-1.jpg",
+        "/products/19-tie-seda-2.jpg",
+        "/products/19-tie-seda-3.jpg",
+        "/products/19-tie-seda-4.jpg"
+      ],
+      "category": "Accesorios",
+      "line": "Hombres",
+      "color": "Azul",
+      "colors": ["Azul", "Negro", "Gris"],
+      "sizes": ["One Size"],
+      "stock": 40,
+      "description": "Corbata en seda pura con patrón clásico"
+    },
+    {
+      "id": 20,
+      "name": "Chaleco Formal",
+      "price": 149.99,
+      "image": "/products/20-chaleco-formal-preview.jpg",
+      "gallery": [
+        "/products/20-chaleco-formal-1.jpg",
+        "/products/20-chaleco-formal-2.jpg",
+        "/products/20-chaleco-formal-3.jpg",
+        "/products/20-chaleco-formal-4.jpg"
+      ],
+      "category": "Chalecos",
+      "line": "Hombres",
+      "color": "Negro",
+      "colors": ["Negro", "Gris"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "stock": 11,
+      "description": "Chaleco formal con acabado de lujo"
+    },
+    {
+      "id": 21,
+      "name": "Vestido Casual",
+      "price": 129.99,
+      "image": "/products/21-vestido-casual-preview.jpg",
+      "gallery": [
+        "/products/21-vestido-casual-1.jpg",
+        "/products/21-vestido-casual-2.jpg",
+        "/products/21-vestido-casual-3.jpg",
+        "/products/21-vestido-casual-4.jpg"
+      ],
+      "category": "Vestidos",
+      "line": "Mujeres",
+      "color": "Gris",
+      "colors": ["Gris", "Blanco", "Negro"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": 21,
+      "description": "Vestido casual cómodo y versátil"
+    },
+    {
+      "id": 22,
+      "name": "Sweater Premium",
+      "price": 189.99,
+      "image": "/products/22-sweater-preview.jpg",
+      "gallery": [
+        "/products/22-sweater-1.jpg",
+        "/products/22-sweater-2.jpg",
+        "/products/22-sweater-3.jpg",
+        "/products/22-sweater-4.jpg"
+      ],
+      "category": "Sweaters",
+      "line": "Mujeres",
+      "color": "Gris",
+      "colors": ["Gris", "Beige", "Negro"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": 18,
+      "description": "Sweater premium en mezcla de lana"
+    },
+    {
+      "id": 23,
+      "name": "Blazer Mujer",
+      "price": 219.99,
+      "image": "/products/23-blazer-mujer-preview.jpg",
+      "gallery": [
+        "/products/23-blazer-mujer-1.jpg",
+        "/products/23-blazer-mujer-2.jpg",
+        "/products/23-blazer-mujer-3.jpg",
+        "/products/23-blazer-mujer-4.jpg"
+      ],
+      "category": "Blazers",
+      "line": "Mujeres",
+      "color": "Negro",
+      "colors": ["Negro", "Blanco", "Beige"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": 14,
+      "description": "Blazer elegante para looks profesionales"
+    },
+    {
+      "id": 24,
+      "name": "Pantalón Palazzo",
+      "price": 169.99,
+      "image": "/products/24-pantalon-palazzo-preview.jpg",
+      "gallery": [
+        "/products/24-pantalon-palazzo-1.jpg",
+        "/products/24-pantalon-palazzo-2.jpg",
+        "/products/24-pantalon-palazzo-3.jpg",
+        "/products/24-pantalon-palazzo-4.jpg"
+      ],
+      "category": "Pantalones",
+      "line": "Mujeres",
+      "color": "Beige",
+      "colors": ["Beige", "Negro", "Blanco"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": 16,
+      "description": "Pantalón palazzo con caída elegante"
+    },
+    {
+      "id": 25,
+      "name": "Camisa Lino",
+      "price": 139.99,
+      "image": "/products/25-camisa-lino-preview.jpg",
+      "gallery": [
+        "/products/25-camisa-lino-1.jpg",
+        "/products/25-camisa-lino-2.jpg",
+        "/products/25-camisa-lino-3.jpg",
+        "/products/25-camisa-lino-4.jpg"
+      ],
+      "category": "Camisas",
+      "line": "Hombres",
+      "color": "Blanco",
+      "colors": ["Blanco", "Beige", "Azul"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "stock": 20,
+      "description": "Camisa de lino puro con confort máximo"
+    },
+    {
+      "id": 26,
+      "name": "Shorts Premium",
+      "price": 99.99,
+      "image": "/products/26-shorts-preview.jpg",
+      "gallery": [
+        "/products/26-shorts-1.jpg",
+        "/products/26-shorts-2.jpg",
+        "/products/26-shorts-3.jpg",
+        "/products/26-shorts-4.jpg"
+      ],
+      "category": "Shorts",
+      "line": "Hombres",
+      "color": "Beige",
+      "colors": ["Beige", "Negro", "Azul"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "stock": 27,
+      "description": "Shorts premium con tela de calidad superior"
+    },
+    {
+      "id": 27,
+      "name": "Leggings Sport",
+      "price": 79.99,
+      "image": "/products/27-leggings-preview.jpg",
+      "gallery": [
+        "/products/27-leggings-1.jpg",
+        "/products/27-leggings-2.jpg",
+        "/products/27-leggings-3.jpg",
+        "/products/27-leggings-4.jpg"
+      ],
+      "category": "Leggings",
+      "line": "Mujeres",
+      "color": "Negro",
+      "colors": ["Negro", "Gris", "Azul"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "stock": 32,
+      "description": "Leggings con tecnología de compresión"
+    },
+    {
+      "id": 28,
+      "name": "Bufanda Lana",
+      "price": 89.99,
+      "image": "/products/28-bufanda-preview.jpg",
+      "gallery": [
+        "/products/28-bufanda-1.jpg",
+        "/products/28-bufanda-2.jpg",
+        "/products/28-bufanda-3.jpg",
+        "/products/28-bufanda-4.jpg"
+      ],
+      "category": "Accesorios",
+      "line": "Mujeres",
+      "color": "Gris",
+      "colors": ["Gris", "Negro", "Beige"],
+      "sizes": ["One Size"],
+      "stock": 35,
+      "description": "Bufanda en lana pura con acabado suave"
+    },
+    {
+      "id": 29,
+      "name": "Gafas de Sol",
+      "price": 179.99,
+      "image": "/products/29-gafas-sol-preview.jpg",
+      "gallery": [
+        "/products/29-gafas-sol-1.jpg",
+        "/products/29-gafas-sol-2.jpg",
+        "/products/29-gafas-sol-3.jpg",
+        "/products/29-gafas-sol-4.jpg"
+      ],
+      "category": "Accesorios",
+      "line": "Unisex",
+      "color": "Negro",
+      "colors": ["Negro", "Dorado"],
+      "sizes": ["One Size"],
+      "stock": 20,
+      "description": "Gafas de sol con protección UV total"
+    },
+    {
+      "id": 30,
+      "name": "Cinturón Cuero",
+      "price": 79.99,
+      "image": "/products/30-cinturon-cuero-preview.jpg",
+      "gallery": [
+        "/products/30-cinturon-cuero-1.jpg",
+        "/products/30-cinturon-cuero-2.jpg",
+        "/products/30-cinturon-cuero-3.jpg",
+        "/products/30-cinturon-cuero-4.jpg"
+      ],
+      "category": "Accesorios",
+      "line": "Hombres",
+      "color": "Café",
+      "colors": ["Café", "Negro"],
+      "sizes": ["One Size"],
+      "stock": 30,
+      "description": "Cinturón en cuero genuino con hebilla premium"
+    }
+  ]
+}

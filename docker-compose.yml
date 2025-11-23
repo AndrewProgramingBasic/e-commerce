@@ -1,0 +1,32 @@
+version: '3.7'
+
+services:
+  e-comerce-stephanmoda:
+    # Construye la imagen usando el Dockerfile en el directorio actual
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
+    # Nombre fijo para el contenedor
+    container_name: e-comerce-stephanmoda
+
+    ports:
+      - "3002:3001"
+    
+    environment:
+      # Definición para VIRTUAL_HOST (ejemplo de proxy)
+      VIRTUAL_HOST: stephanmoda.adantechti.com
+      # Otras variables de entorno de Next.js (si las tienes)
+      # NODE_ENV: production
+      
+    # Asigna el servicio a una red definida
+    networks:
+      - adantech_default_network
+      
+# Definición de las redes externas/internas
+networks:
+  adantech_default_network:
+    # Usa un nombre de red pre-existente o lo crea con este nombre
+    name: adantech_default
+    # Si planeas usar esta red para un proxy externo, considera 'external: true' 
+    # si la red ya existe. De lo contrario, Docker Compose la creará.
